@@ -80,7 +80,8 @@ body {
 ///////////////////////////////////////////////////////////////////////*/
 
 #header {
-	background: url(../img/bg/header-bg.jpg) no-repeat center top fixed;
+	background-color: black;
+	/*background: url(../img/index_logo.png) no-repeat center top fixed;*/
 	background-size: cover;
 }
 
@@ -184,31 +185,33 @@ body {
 ///////////////////////////////////////////////////////////////////////*/
 
 .middle {
-	padding-top: 200px;
+	padding-top: 50px;
 }
 
-.pro-name {
-    font-size: 100px;
+.pro-name { /*FRANCE这几个字*/
+    font-size: 30px;
     margin: 0;
-    margin-bottom: 15px;  
+	margin-top: 30px;
+    margin-bottom: 15px;
     /* font-family: 'Lato', sans-serif; */
     /* font-family: 'Source Sans Pro', sans-serif; */
     /* font-family: 'Niconne', cursive; */
-    font-weight: 400;
-    font-family: 'Rouge Script', cursive;
-    line-height: 90px;
+    font-weight: 100;
+	font-family:"Times New Roman",Georgia,Serif;
+    line-height: 30px;
     color: #fff;
     letter-spacing: 1px;
     word-spacing: 6px;
     text-shadow: -2px -2px #000;
 }
 
-.tagline {
-	font-size: 27px;
-	margin-bottom: 60px;
+.tagline { /*中英文的文字*/
+	font-size: 14px;
+	margin-top: 20px;
+	margin-bottom: auto;
 	color: #fff;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: normal;
 	line-height: 56px;
 	word-spacing: 2px;
 	text-shadow: 2px 2px #1C2725;
