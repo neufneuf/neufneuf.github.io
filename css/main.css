@@ -80,8 +80,8 @@ body {
 ///////////////////////////////////////////////////////////////////////*/
 
 #header {
-	background-color: black;
-	/*background: url(../img/index_logo.png) no-repeat center top fixed;*/
+	/*background-color: #eeeeee;*/
+	background: url(../img/bg/header-bg.png) no-repeat center top fixed;
 	background-size: cover;
 }
 
